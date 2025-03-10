@@ -3,8 +3,7 @@ public class binarySearch{
     public static String Bsearch(int []newarr,int tar){
         int low=0;
         int high=newarr.length-1;
-        while(low<high){
-            for(int i=0;i<newarr.length;i++){
+        while(low<=high){
                 int mid=low+(high-low)/2;
                 if(newarr[mid]==tar){
                     return "True";
@@ -14,8 +13,6 @@ public class binarySearch{
                     low=mid+1;
                 }
             }
-            
-        }
         return "False";
     }
     public static void main(String[]args){
