@@ -1,3 +1,5 @@
+package old;
+
 import java.util.*;
 public class findMin {
     public static void printarr(int[] min){
